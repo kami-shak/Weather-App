@@ -46,7 +46,7 @@ btn.addEventListener("click", (e) => {
         let wind;
         // fetching data from Api
 
-     let api=`http://api.weatherapi.com/v1/current.json?key=fefae3b8146b47a8a7f180235210709&q=${cityName}&aqi=yes`;
+     let api=`https://api.weatherapi.com/v1/current.json?key=fefae3b8146b47a8a7f180235210709&q=${cityName}&aqi=yes`;
     fetch(api)
      .then((res) => {
          return res.json()
