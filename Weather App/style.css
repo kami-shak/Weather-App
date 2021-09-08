@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@500&display=swap');
+
+
+/* Appliying Design on Body */
+body {
+    background-image: url("https://images.unsplash.com/photo-1514632595-4944383f2737?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8d2VhdGhlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: inherit;
+}
+
+/* Main Div */
+
+.main-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* OutPut Div */
+
+.output {
+    display: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 25px;
+
+}
+
+
+
+/* Input Div */
+
+.input {
+    margin: 10px 25px 25px 25px;
+}
+
+input[type="text"] {
+    width: 190px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 25px;
+    outline: none;
+    font-family: 'Domine', serif;
+    text-align: center;
+    background-color: #005f73;
+    color:#000000;
+}
+
+input[type="text"]:hover {
+    color: #a8dadc;
+    background-color: #003566;
+}
+
+/* pargrapgh design */
+p {
+    padding: 5px;
+    font-family: 'Domine', serif;
+    color: #b23a48;
+    font-weight: bold;
+}
+
+.p1 {
+    color: #023047;
+    font-weight: bold;
+    font-family: 'Domine', serif;
+}
+
+#newOne {
+    color: black;
+    font-size: 25px;
+}
+
+
+/* button */
+.btn {
+    width: 200px;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 25px;
+    border-radius: 10px;
+    font-family: 'Domine', serif;
+    background-color: black;
+    color: #29b8d1;
+}
+
+.btn:hover {
+    color: black;
+    background-color: #0c89af;
+}
